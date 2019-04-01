@@ -1,0 +1,82 @@
+{
+  "following": {
+    "query_hash" : "c56ee0ae1f89cdbd1c89e2bc6b8f3d18",
+    "variables" : {
+      "id" : "userID",
+  		"include_reel" : true,
+  		"fetch_mutual" : true,
+  		"first" : 50
+    }
+  },
+  "followers": {
+    "query_hash" : "56066f031e6239f35a904ac20c9f37d9",
+    "variables" : {
+      "id" : "userID",
+  		"include_reel" : true,
+  		"fetch_mutual" : true,
+  		"first" : 50
+    }
+  },
+  "stories": {
+    "query_hash" : "61e453c4b7d667c6294e71c57afa6e63",
+    "variables" : {
+      "reel_ids" : "[users]",
+      "tag_names" : [],
+      "location_ids" : [],
+      "highlight_reel_ids" : [],
+      "precomposed_overlay" : false,
+      "show_story_header_follow_button" : false
+    }
+  },
+  "pinnedStories": {
+    "query_hash": "eb1918431e946dd39bf8cf8fb870e426",
+    "variables" : {
+      "reel_ids" : [],
+      "tag_names" : [],
+      "location_ids" : [],
+      "highlight_reel_ids" : [],
+      "precomposed_overlay" : false,
+      "show_story_viewer_list" : true,
+      "story_viewer_fetch_count" : 50,
+      "story_viewer_cursor" : ""
+    }
+  },
+  "pinnedStoriesList": {
+    "query_hash": "7c16654f22c819fb63d1183034a5162f",
+    "variables" : {
+      "user_id" : "1200152326",
+      "include_chaining" : true,
+      "include_reel" : true,
+      "include_suggested_users" : false,
+      "include_logged_out_extras" : false,
+      "include_highlight_reels" : true
+    }
+  },
+  "photos": {
+    "query_hash" : "f412a8bfd8332a76950fefc1da5785ef",
+    "variables" : {
+      "id" : "userID",
+      "first" : 50
+    }
+  },
+  "tagged": {
+    "query_hash" : "ff260833edf142911047af6024eb634a",
+    "variables" : {
+      "id" : "userID",
+      "first" : 50
+    }
+  },
+  "post": {
+    "query_hash" : "477b65a610463740ccdb83135b2014db",
+    "variables" : {
+      "shortcode" : "shortcode",
+      "child_comment_count" : 3,
+      "fetch_comment_count" : 40,
+      "parent_comment_count" : 24,
+      "has_threaded_comments" : false
+    }
+  },
+  "user": {
+    "__a": 1
+  }
+}
